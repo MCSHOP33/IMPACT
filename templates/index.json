@@ -23,7 +23,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "logo_list_hTTtj6": {
@@ -85,7 +85,7 @@
         "logo_item_border": "#f0f0f0"
       }
     },
-    "image_with_text_overlay_Yhy4Lc": {
+    "image_with_text_overlay_iq3fiQ": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
@@ -93,12 +93,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Design_sans_titre_2.svg",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_2.svg",
+        "image": "shopify://shop_images/ChatGPT_Image_10_juin_2026_13_44_20.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_10_juin_2026_13_44_20.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#f0f0f0",
-        "overlay_color": "#f0f0f0",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
@@ -282,7 +282,7 @@
   "order": [
     "image_with_text_overlay_M3aBer",
     "logo_list_hTTtj6",
-    "image_with_text_overlay_Yhy4Lc",
+    "image_with_text_overlay_iq3fiQ",
     "custom_liquid_Q8NYXQ",
     "custom_liquid_E6YejB",
     "featured-product",
