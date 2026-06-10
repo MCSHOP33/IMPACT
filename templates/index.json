@@ -93,13 +93,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/benefice.webp",
-        "mobile_image": "shopify://shop_images/benefice.webp",
+        "image": "shopify://shop_images/Design_sans_titre_2.svg",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_2.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#f0f0f0",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_Q8NYXQ": {
