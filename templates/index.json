@@ -29,13 +29,6 @@
     "logo_list_hTTtj6": {
       "type": "logo-list",
       "blocks": {
-        "logo_p3cRtB": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
         "logo_3qzDE7": {
           "type": "logo",
           "settings": {
@@ -66,7 +59,6 @@
         }
       },
       "block_order": [
-        "logo_p3cRtB",
         "logo_3qzDE7",
         "logo_r6aYPg",
         "logo_yiAXpq",
