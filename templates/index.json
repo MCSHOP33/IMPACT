@@ -168,6 +168,12 @@
             "liquid": "<div class=\"vlt-b\">\n  <div class=\"vlt-b-item\">\n    <span class=\"vlt-b-check\">✓</span>\n    <span>Ventre plat <strong>dès le 1er port</strong> — invisible sous ta chemise</span>\n  </div>\n  <div class=\"vlt-b-item\">\n    <span class=\"vlt-b-check\">✓</span>\n    <span>Dos droit, silhouette affirmée <strong>sans effort</strong></span>\n  </div>\n  <div class=\"vlt-b-item vlt-b-gold\">\n    <span class=\"vlt-b-check vlt-b-check-gold\">✓</span>\n    <span>Transformation <strong>visible en 30 jours</strong> de port régulier</span>\n  </div>\n</div>\n\n<style>\n.vlt-b{background:#fff;border:1px solid #e8eef2;border-radius:10px;padding:16px;margin:10px 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:10px}\n.vlt-b-item{display:flex;align-items:center;gap:10px;font-size:14px;color:#374151;line-height:1.4}\n.vlt-b-item strong{color:#111827}\n.vlt-b-check{color:#4a9aba;font-weight:700;font-size:15px;flex-shrink:0}\n.vlt-b-gold{border-top:1px solid #f0e8d8;padding-top:10px;margin-top:2px}\n.vlt-b-check-gold{color:#b8935a}\n</style>"
           }
         },
+        "liquid_mVyCMK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"vlt-urgency-block\">\n  <span class=\"vlt-urgency-dot\"></span>\n  <span class=\"vlt-urgency-text\">\n    Stock limité — plus que <strong id=\"vlt-stock-count\">47</strong> unités disponibles à ce prix\n  </span>\n</div>\n\n<style>\n.vlt-urgency-block {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 16px;\n  background: #fff8f8;\n  border: 1px solid #fcd5d5;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-urgency-dot {\n  width: 8px;\n  height: 8px;\n  border-radius: 50%;\n  background: #ef4444;\n  flex-shrink: 0;\n  animation: vlt-pulse 1.5s infinite;\n}\n@keyframes vlt-pulse {\n  0%,100% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.4; transform: scale(0.85); }\n}\n.vlt-urgency-text {\n  font-size: 13px;\n  color: #7f1d1d;\n  line-height: 1.4;\n}\n.vlt-urgency-text strong {\n  font-size: 15px;\n  font-weight: 800;\n  color: #ef4444;\n  transition: all 0.3s ease;\n}\n.vlt-stock-flash {\n  animation: vlt-flash 0.4s ease;\n}\n@keyframes vlt-flash {\n  0% { transform: scale(1.3); color: #dc2626; }\n  100% { transform: scale(1); }\n}\n</style>\n\n<script>\n(function() {\n  const key = 'vlt_stock';\n  const keyTime = 'vlt_stock_time';\n  const el = document.getElementById('vlt-stock-count');\n  if (!el) return;\n\n  // Stock initial entre 43 et 52\n  let stock = parseInt(localStorage.getItem(key));\n  const lastTime = parseInt(localStorage.getItem(keyTime)) || 0;\n\n  if (!stock || stock < 5 || stock > 60) {\n    stock = Math.floor(Math.random() * 10) + 43;\n  }\n\n  // Diminue le stock selon le temps écoulé depuis la dernière visite\n  const now = Date.now();\n  const minutesPassed = Math.floor((now - lastTime) / 60000);\n  if (minutesPassed > 0 && lastTime > 0) {\n    const drop = Math.min(Math.floor(minutesPassed / 8), 3);\n    stock = Math.max(stock - drop, 5);\n  }\n\n  localStorage.setItem(key, stock);\n  localStorage.setItem(keyTime, now);\n  el.textContent = stock;\n\n  // Diminue visuellement toutes les 3 à 7 minutes sur la page\n  function scheduleNext() {\n    const delay = (Math.floor(Math.random() * 4) + 3) * 60 * 1000;\n    setTimeout(function() {\n      if (stock > 5) {\n        stock--;\n        localStorage.setItem(key, stock);\n        el.textContent = stock;\n        el.classList.remove('vlt-stock-flash');\n        void el.offsetWidth;\n        el.classList.add('vlt-stock-flash');\n        scheduleNext();\n      }\n    }, delay);\n  }\n  scheduleNext();\n})();\n</script>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -214,6 +220,7 @@
         "title",
         "liquid_MB39rh",
         "liquid_7QXxDT",
+        "liquid_mVyCMK",
         "badges",
         "separator",
         "variant-picker",
