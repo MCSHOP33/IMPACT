@@ -183,6 +183,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_pGBb9r": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"valtor-trust-videos\">\n  <h3>Ils l’ont testé, ils l’ont adopté</h3>\n  <p>Découvrez VALTOR en conditions réelles.</p>\n\n  <div class=\"valtor-video-grid\">\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/9aa603486a4e45e5a7f446417effdfe3.mp4\" muted autoplay loop playsinline></video>\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/955d042a167147d6892cda3df76c3082.mp4\" muted autoplay loop playsinline></video>\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/bd420ec18b354bfd91c810a295ec0687.mp4\" muted autoplay loop playsinline></video>\n  </div>\n</div>\n\n<style>\n.valtor-trust-videos {\n  margin: 18px 0 10px;\n  padding: 14px;\n  background: #f4f4f4;\n  border-radius: 14px;\n  text-align: center;\n}\n\n.valtor-trust-videos h3 {\n  margin: 0 0 4px;\n  font-size: 17px;\n  font-weight: 700;\n  color: #111;\n}\n\n.valtor-trust-videos p {\n  margin: 0 0 12px;\n  font-size: 13px;\n  color: #555;\n}\n\n.valtor-video-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 8px;\n}\n\n.valtor-video-grid video {\n  width: 100%;\n  height: 150px;\n  object-fit: cover;\n  border-radius: 12px;\n  background: #000;\n}\n\n@media (max-width: 480px) {\n  .valtor-video-grid video {\n    height: 120px;\n  }\n}\n</style>"
+          }
         }
       },
       "block_order": [
@@ -191,7 +197,8 @@
         "separator",
         "variant-picker",
         "quantity-selector",
-        "buy-buttons"
+        "buy-buttons",
+        "liquid_pGBb9r"
       ],
       "settings": {
         "full_width": false,
