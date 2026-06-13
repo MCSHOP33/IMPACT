@@ -144,6 +144,12 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
+        "liquid_dDdgmr": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"vlt-rating-block\">\n  <div class=\"vlt-rating-stars\">\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n  </div>\n  <span class=\"vlt-rating-score\">4,9/5</span>\n  <span class=\"vlt-rating-sep\">·</span>\n  <a class=\"vlt-rating-link\" href=\"#vlt-avis\">+2 847 avis vérifiés ↓</a>\n</div>\n\n<style>\n.vlt-rating-block {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 12px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-rating-stars {\n  display: flex;\n  gap: 2px;\n  align-items: center;\n}\n.vlt-rating-score {\n  font-size: 14px;\n  font-weight: 700;\n  color: #0f1923;\n}\n.vlt-rating-sep {\n  color: #dde6ed;\n  font-size: 14px;\n}\n.vlt-rating-link {\n  font-size: 13px;\n  color: #4a9aba;\n  text-decoration: none;\n  font-weight: 500;\n  border-bottom: 1px solid #c8e4f0;\n  padding-bottom: 1px;\n  transition: color 0.2s;\n}\n.vlt-rating-link:hover {\n  color: #2a7a9a;\n}\n</style>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -204,6 +210,7 @@
         }
       },
       "block_order": [
+        "liquid_dDdgmr",
         "title",
         "liquid_MB39rh",
         "liquid_7QXxDT",
