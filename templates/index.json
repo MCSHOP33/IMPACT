@@ -208,10 +208,22 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_ciBx9D": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"vlt-ship2\">\n  <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4a9aba\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"22\" height=\"22\">\n    <path d=\"M1 3h15v13H1zM16 8h4l3 3v5h-7V8z\"/>\n    <circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/>\n    <circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>\n  </svg>\n  <span>Expédition sous <strong>48h</strong></span>\n</div>\n\n<style>\n.vlt-ship2 {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 13px;\n  background: #f7fafc;\n  border-top: 2px solid #4a9aba;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  font-size: 14px;\n  color: #6b7280;\n  letter-spacing: 0.3px;\n}\n.vlt-ship2 strong {\n  color: #0f1923;\n  font-weight: 800;\n}\n</style>"
+          }
+        },
         "liquid_pGBb9r": {
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"valtor-trust-videos\">\n  <h3>12 000 hommes l'ont adopté</h3>\n  <div class=\"valtor-video-grid\">\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/9aa603486a4e45e5a7f446417effdfe3.mp4\" muted autoplay loop playsinline></video>\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/955d042a167147d6892cda3df76c3082.mp4\" muted autoplay loop playsinline></video>\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/bd420ec18b354bfd91c810a295ec0687.mp4\" muted autoplay loop playsinline></video>\n  </div>\n</div>\n\n<style>\n.valtor-trust-videos {\n  margin: 18px 0 10px;\n  padding: 16px;\n  background: #07090c;\n  border: 1px solid rgba(74, 154, 186, 0.18);\n  border-radius: 14px;\n  text-align: center;\n}\n.valtor-trust-videos h3 {\n  margin: 0 0 14px;\n  font-size: 16px;\n  font-weight: 700;\n  color: #eef3f8;\n  letter-spacing: 0.3px;\n}\n.valtor-trust-videos h3 span {\n  color: #4a9aba;\n}\n.valtor-video-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 8px;\n}\n.valtor-video-grid video {\n  width: 100%;\n  height: 150px;\n  object-fit: cover;\n  border-radius: 10px;\n  border: 1px solid rgba(74, 154, 186, 0.15);\n  background: #0d1117;\n}\n@media (max-width: 480px) {\n  .valtor-video-grid video {\n    height: 120px;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_eG6AAn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"vlt-bar\">\n  <span>🚚 Livraison gratuite</span>\n  <span class=\"vlt-bar-sep\">·</span>\n  <span>✓ Satisfait ou remboursé</span>\n  <span class=\"vlt-bar-sep\">·</span>\n  <span>🔒 Paiement sécurisé</span>\n</div>\n\n<style>\n.vlt-bar {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  gap: 8px;\n  padding: 12px 16px;\n  background: #4a9aba;\n  border-radius: 10px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  font-size: 11px;\n  font-weight: 600;\n  color: #fff;\n  letter-spacing: 0.3px;\n  text-align: center;\n}\n.vlt-bar-sep {\n  opacity: 0.4;\n}\n</style>"
           }
         }
       },
@@ -226,7 +238,9 @@
         "variant-picker",
         "quantity-selector",
         "buy-buttons",
-        "liquid_pGBb9r"
+        "liquid_ciBx9D",
+        "liquid_pGBb9r",
+        "liquid_eG6AAn"
       ],
       "settings": {
         "full_width": false,
