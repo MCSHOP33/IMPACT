@@ -60,22 +60,13 @@
             "logo_width": 190,
             "link": ""
           }
-        },
-        "logo_eQ9Wap": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/L_Equipe_logo.webp",
-            "logo_width": 120,
-            "link": ""
-          }
         }
       },
       "block_order": [
         "logo_3qzDE7",
         "logo_r6aYPg",
         "logo_yiAXpq",
-        "logo_GVXhhL",
-        "logo_eQ9Wap"
+        "logo_GVXhhL"
       ],
       "name": "Logo list",
       "settings": {
