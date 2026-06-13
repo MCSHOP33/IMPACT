@@ -150,6 +150,12 @@
             "heading_tag": "h2"
           }
         },
+        "liquid_7QXxDT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"vlt-b\">\n  <div class=\"vlt-b-item\">\n    <span class=\"vlt-b-check\">✓</span>\n    <span>Ventre plat <strong>dès le 1er port</strong> — invisible sous ta chemise</span>\n  </div>\n  <div class=\"vlt-b-item\">\n    <span class=\"vlt-b-check\">✓</span>\n    <span>Dos droit, silhouette affirmée <strong>sans effort</strong></span>\n  </div>\n  <div class=\"vlt-b-item vlt-b-gold\">\n    <span class=\"vlt-b-check vlt-b-check-gold\">✓</span>\n    <span>Transformation <strong>visible en 30 jours</strong> de port régulier</span>\n  </div>\n</div>\n\n<style>\n.vlt-b{background:#fff;border:1px solid #e8eef2;border-radius:10px;padding:16px;margin:10px 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:10px}\n.vlt-b-item{display:flex;align-items:center;gap:10px;font-size:14px;color:#374151;line-height:1.4}\n.vlt-b-item strong{color:#111827}\n.vlt-b-check{color:#4a9aba;font-weight:700;font-size:15px;flex-shrink:0}\n.vlt-b-gold{border-top:1px solid #f0e8d8;padding-top:10px;margin-top:2px}\n.vlt-b-check-gold{color:#b8935a}\n</style>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -193,6 +199,7 @@
       },
       "block_order": [
         "title",
+        "liquid_7QXxDT",
         "badges",
         "separator",
         "variant-picker",
