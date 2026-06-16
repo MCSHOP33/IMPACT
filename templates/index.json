@@ -355,25 +355,11 @@
             "content": "<p><br/>Oui, VALTOR peut être porté plusieurs heures dans la journée. Sa matière extensible permet un bon maintien tout en restant confortable. Si vous n’avez pas l’habitude de la compression, commencez par quelques heures puis augmentez progressivement.<br/><br/></p>"
           }
         },
-        "item_nqPcgJ": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que VALTOR fait perdre du poids ?",
-            "content": "<p><br/>VALTOR ne remplace pas une perte de poids. Il agit comme un débardeur de compression : il améliore immédiatement l’apparence de la silhouette sous les vêtements, mais ne brûle pas les graisses.<br/><br/></p>"
-          }
-        },
         "item_pzjiaV": {
           "type": "item",
           "settings": {
             "title": "Comment choisir ma taille ?",
             "content": "<p><br/>Nous vous conseillons de choisir votre taille habituelle si vous souhaitez un maintien confortable. Si vous êtes entre deux tailles, prenez la taille au-dessus pour plus d’aisance, ou la taille en dessous pour un effet plus compressif.<br/><br/></p>"
-          }
-        },
-        "item_kXQMwf": {
-          "type": "item",
-          "settings": {
-            "title": "Et si la taille ne me convient pas ?",
-            "content": "<p>Si la taille ne convient pas, vous pouvez nous contacter afin que nous vous accompagnions dans le choix de la bonne taille ou dans la procédure d’échange selon nos conditions de retour.<br/><br/></p>"
           }
         },
         "item_FTdmjw": {
@@ -390,9 +376,7 @@
         "166442457738b23caf-2",
         "item_NkxUtc",
         "item_QpcP3x",
-        "item_nqPcgJ",
         "item_pzjiaV",
-        "item_kXQMwf",
         "item_FTdmjw"
       ],
       "settings": {
