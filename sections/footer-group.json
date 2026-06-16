@@ -85,8 +85,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Notre engagement",
+            "content": "<p>VALTOR accompagne les hommes qui souhaitent une silhouette plus nette et plus confiante au quotidien. Nos débardeurs de compression offrent un maintien discret, confortable et invisible sous les vêtements.</p>",
             "enable_follow_on_shop": true
           }
         }
