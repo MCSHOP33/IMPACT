@@ -291,6 +291,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_9bh4MH": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"valtor-split\">\n\n  <div class=\"valtor-split__text--mobile\">\n    <p class=\"vs-label\">Technologie</p>\n    <h2 class=\"vs-title\">La technologie au service de votre silhouette.</h2>\n  </div>\n\n  <div class=\"valtor-split__video\">\n    <video autoplay muted loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/445e483b3a214f21ae25608e39af6613.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <div class=\"valtor-split__text\">\n    <p class=\"vs-label\">Technologie</p>\n    <h2 class=\"vs-title\">La technologie au service de votre silhouette.</h2>\n    <p class=\"vs-body\">VALTOR comprime, affine et maintient. Ventre plat, taille redessinée, posture corrigée — dès que vous l'enfilez. Tissu premium 4 directions, invisible sous les vêtements, confortable 12h par jour.</p>\n    <p class=\"vs-punch\">Ce que les autres voient, c'est votre confiance.</p>\n  </div>\n\n</div>\n\n<style>\n  .valtor-split {\n    display: flex;\n    align-items: center;\n    gap: 40px;\n    max-width: 900px;\n    margin: 0 auto;\n    padding: 20px 0;\n  }\n\n  .valtor-split__video {\n    flex: 1;\n    border-radius: 12px;\n    overflow: hidden;\n  }\n\n  .valtor-split__video video {\n    width: 100%;\n    height: 100%;\n    display: block;\n    object-fit: cover;\n  }\n\n  .valtor-split__text {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    gap: 14px;\n  }\n\n  .valtor-split__text--mobile {\n    display: none;\n  }\n\n  .vs-label {\n    font-size: 11px;\n    letter-spacing: 3px;\n    text-transform: uppercase;\n    color: #4A9DC4;\n    font-weight: 600;\n    margin: 0;\n  }\n\n  .vs-title {\n    font-size: 22px;\n    font-weight: 700;\n    color: #1A1A1A;\n    margin: 0;\n    line-height: 1.3;\n  }\n\n  .vs-body {\n    font-size: 15px;\n    color: #444;\n    line-height: 1.7;\n    margin: 0;\n  }\n\n  .vs-punch {\n    font-size: 16px;\n    font-weight: 600;\n    font-style: italic;\n    color: #4A9DC4;\n    margin: 0;\n    border-left: 3px solid #4A9DC4;\n    padding-left: 12px;\n  }\n\n  @media (max-width: 640px) {\n    .valtor-split {\n      flex-direction: column;\n      gap: 24px;\n    }\n\n    .valtor-split__text--mobile {\n      display: flex;\n      flex-direction: column;\n      gap: 10px;\n      width: 100%;\ntext-align: center;\n    }\n\n    .valtor-split__text .vs-label,\n    .valtor-split__text .vs-title {\n      display: none;\n    }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -352,6 +365,7 @@
     "custom_liquid_Q8NYXQ",
     "custom_liquid_E6YejB",
     "featured-product",
+    "custom_liquid_9bh4MH",
     "faq"
   ]
 }
