@@ -323,29 +323,77 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "À qui s’adresse VALTOR ?",
+            "content": "<p><br/>VALTOR s’adresse aux hommes qui veulent une silhouette plus nette sous leurs vêtements, sans effort et sans compromis sur le confort. Il est idéal si vous souhaitez lisser visuellement le ventre, améliorer le maintien et vous sentir plus à l’aise au quotidien.<br/><br/></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Comment fonctionne le débardeur de compression VALTOR ?",
+            "content": "<p><br/>VALTOR utilise une compression ciblée au niveau du ventre, de la taille et du torse. Il aide à maintenir la silhouette, à lisser les zones visibles sous les vêtements et à offrir un effet plus structuré dès le premier port.<br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Est-ce que le résultat est visible immédiatement ?",
+            "content": "<p><br/>Oui, l’effet visuel est immédiat dès que vous portez VALTOR. La silhouette paraît plus droite, plus maintenue et plus affinée sous un t-shirt, une chemise ou un polo.<br/><br/></p>"
+          }
+        },
+        "item_NkxUtc": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que VALTOR se voit sous les vêtements ?",
+            "content": "<p><br/>Non, VALTOR a été conçu pour rester discret. Sa coupe près du corps permet de le porter sous vos vêtements du quotidien sans attirer l’attention.<br/><br/></p>"
+          }
+        },
+        "item_QpcP3x": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je porter VALTOR toute la journée ?",
+            "content": "<p><br/>Oui, VALTOR peut être porté plusieurs heures dans la journée. Sa matière extensible permet un bon maintien tout en restant confortable. Si vous n’avez pas l’habitude de la compression, commencez par quelques heures puis augmentez progressivement.<br/><br/></p>"
+          }
+        },
+        "item_nqPcgJ": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que VALTOR fait perdre du poids ?",
+            "content": "<p><br/>VALTOR ne remplace pas une perte de poids. Il agit comme un débardeur de compression : il améliore immédiatement l’apparence de la silhouette sous les vêtements, mais ne brûle pas les graisses.<br/><br/></p>"
+          }
+        },
+        "item_pzjiaV": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir ma taille ?",
+            "content": "<p><br/>Nous vous conseillons de choisir votre taille habituelle si vous souhaitez un maintien confortable. Si vous êtes entre deux tailles, prenez la taille au-dessus pour plus d’aisance, ou la taille en dessous pour un effet plus compressif.<br/><br/></p>"
+          }
+        },
+        "item_kXQMwf": {
+          "type": "item",
+          "settings": {
+            "title": "Et si la taille ne me convient pas ?",
+            "content": "<p>Si la taille ne convient pas, vous pouvez nous contacter afin que nous vous accompagnions dans le choix de la bonne taille ou dans la procédure d’échange selon nos conditions de retour.<br/><br/></p>"
+          }
+        },
+        "item_FTdmjw": {
+          "type": "item",
+          "settings": {
+            "title": "VALTOR passe-t-il en machine ?",
+            "content": "<p><br/>Oui, VALTOR peut être lavé en machine à basse température. Pour préserver la compression et la qualité du tissu, évitez le sèche-linge et privilégiez un séchage à l’air libre.<br/><br/></p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_NkxUtc",
+        "item_QpcP3x",
+        "item_nqPcgJ",
+        "item_pzjiaV",
+        "item_kXQMwf",
+        "item_FTdmjw"
       ],
       "settings": {
         "full_width": false,
