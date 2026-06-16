@@ -144,6 +144,12 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
+        "rapi_rapi_bundle_pgd894": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "liquid_dDdgmr": {
           "type": "liquid",
           "settings": {
@@ -256,6 +262,7 @@
         }
       },
       "block_order": [
+        "rapi_rapi_bundle_pgd894",
         "liquid_dDdgmr",
         "title",
         "liquid_MB39rh",
