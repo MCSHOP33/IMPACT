@@ -401,20 +401,20 @@
         "title": "Tout savoir avant de commander",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
-        "button_background": "",
+        "button_background": "#4A9DC4",
         "button_text_color": "",
         "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_text_color": "#000000"
       }
     }
   },
