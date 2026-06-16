@@ -211,7 +211,7 @@
         "liquid_y6jUEq": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% comment %} Badge de paiement - à placer sous le bouton Achat {% endcomment %}\n<div class=\"payment-badges\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_16_juin_2026_13_25_01.png?v=1781609890\"\n    alt=\"Modes de paiement acceptés\"\n    loading=\"lazy\"\n    width=\"auto\"\n    height=\"auto\"\n  >\n</div>\n\n<style>\n  .payment-badges {\n    margin-top: 12px;\n    text-align: center;\n  }\n\n  .payment-badges img {\n    max-width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n</style>"
+            "liquid": "{% comment %} Badge de paiement - à placer sous le bouton Achat {% endcomment %}\n<div class=\"payment-badges\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_16_juin_2026_13_25_01.png?v=1781611675\"\n    alt=\"Modes de paiement acceptés\"\n    loading=\"lazy\"\n    width=\"auto\"\n    height=\"auto\"\n  >\n</div>\n\n<style>\n  .payment-badges {\n    margin-top: 12px;\n    text-align: center;\n  }\n\n  .payment-badges img {\n    max-width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n</style>"
           }
         },
         "liquid_ciBx9D": {
