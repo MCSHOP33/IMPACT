@@ -162,10 +162,12 @@
             "liquid": "<div class=\"vlt-trust\">\n  <div class=\"vlt-trust-avatars\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_11_40.png?v=1781381593\" alt=\"Thomas\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_12_44.png?v=1781381597\" alt=\"Karim\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_13_35.png?v=1781381631\" alt=\"Nicolas\">\n  </div>\n  <p class=\"vlt-trust-text\">\n    Thomas, Karim et <strong>+12 000 hommes</strong> ont arrêté de rentrer le ventre.\n  </p>\n</div>\n\n<style>\n.vlt-trust {\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 14px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-trust-avatars {\n  display: flex;\n  flex-shrink: 0;\n}\n.vlt-trust-avatar {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  object-fit: cover;\n  border: 2px solid #fff;\n  margin-left: -10px;\n  box-shadow: 0 0 0 1px #dde6ed;\n}\n.vlt-trust-avatar:first-child {\n  margin-left: 0;\n}\n.vlt-trust-text {\n  font-size: 13px;\n  color: #6b7280;\n  line-height: 1.5;\n  margin: 0;\n}\n.vlt-trust-text strong {\n  color: #0f1923;\n  font-weight: 700;\n}\n</style>"
           }
         },
-        "liquid_7QXxDT": {
-          "type": "liquid",
+        "image_FeyRpQ": {
+          "type": "image",
           "settings": {
-            "liquid": "<div class=\"vlt-b\">\n  <div class=\"vlt-b-item\">\n    <span class=\"vlt-b-check\">✓</span>\n    <span>Ventre plat <strong>dès le 1er port</strong> — invisible sous ta chemise</span>\n  </div>\n  <div class=\"vlt-b-item\">\n    <span class=\"vlt-b-check\">✓</span>\n    <span>Dos droit, silhouette affirmée <strong>sans effort</strong></span>\n  </div>\n  <div class=\"vlt-b-item vlt-b-gold\">\n    <span class=\"vlt-b-check vlt-b-check-gold\">✓</span>\n    <span>Transformation <strong>visible en 30 jours</strong> de port régulier</span>\n  </div>\n</div>\n\n<style>\n.vlt-b{background:#fff;border:1px solid #e8eef2;border-radius:10px;padding:16px;margin:10px 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:10px}\n.vlt-b-item{display:flex;align-items:center;gap:10px;font-size:14px;color:#374151;line-height:1.4}\n.vlt-b-item strong{color:#111827}\n.vlt-b-check{color:#4a9aba;font-weight:700;font-size:15px;flex-shrink:0}\n.vlt-b-gold{border-top:1px solid #f0e8d8;padding-top:10px;margin-top:2px}\n.vlt-b-check-gold{color:#b8935a}\n</style>"
+            "image": "shopify://shop_images/ChatGPT_Image_16_juin_2026_14_19_32.png",
+            "alignment": "start",
+            "max_width": 340
           }
         },
         "liquid_mVyCMK": {
@@ -257,7 +259,7 @@
         "liquid_dDdgmr",
         "title",
         "liquid_MB39rh",
-        "liquid_7QXxDT",
+        "image_FeyRpQ",
         "liquid_mVyCMK",
         "badges",
         "separator",
