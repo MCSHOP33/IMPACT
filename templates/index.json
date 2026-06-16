@@ -144,12 +144,6 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "rapi_rapi_bundle_pgd894": {
-          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "liquid_dDdgmr": {
           "type": "liquid",
           "settings": {
@@ -190,20 +184,31 @@
           "type": "separator",
           "settings": {}
         },
-        "variant-picker": {
-          "type": "variant_picker",
+        "rapi_rapi_bundle_pgd894": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "color",
-            "variant_image_options": "",
-            "size_chart_page": ""
+            "product": "{{section.settings.product}}"
           }
         },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {}
+        "collapsible_text_3ad3qW": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Guide des tailles",
+            "content": "<p>Un guide des tailles est disponible dans les images du produit pour vous aider.</p><p>👉 Si vous êtes proche de la limite de poids, prenez une taille au-dessus pour un ajustement optimal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_xBiDcL": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "SAV 7J/7",
+            "content": "<p>Notre service client est à votre écoute <strong>7J/7</strong>.<br/></p><p>Vous pouvez nous contacter en utilisant l'onglet <strong>\"Contact\"</strong> de notre boutique ou par email à l'adresse<strong> contact@myvaltor.com</strong></p>",
+            "page": ""
+          }
         },
         "buy-buttons": {
           "type": "buy_buttons",
@@ -239,30 +244,9 @@
           "settings": {
             "liquid": "<div class=\"vlt-bar\">\n  <span>🚚 Livraison gratuite</span>\n  <span class=\"vlt-bar-sep\">·</span>\n  <span>✓ Satisfait ou remboursé</span>\n  <span class=\"vlt-bar-sep\">·</span>\n  <span>🔒 Paiement sécurisé</span>\n</div>\n\n<style>\n.vlt-bar {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  gap: 8px;\n  padding: 12px 16px;\n  background: #4a9aba;\n  border-radius: 10px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  font-size: 11px;\n  font-weight: 600;\n  color: #fff;\n  letter-spacing: 0.3px;\n  text-align: center;\n}\n.vlt-bar-sep {\n  opacity: 0.4;\n}\n</style>"
           }
-        },
-        "collapsible_text_3ad3qW": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Guide des tailles",
-            "content": "<p>Un guide des tailles est disponible dans les images du produit pour vous aider.</p><p>👉 Si vous êtes proche de la limite de poids, prenez une taille au-dessus pour un ajustement optimal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_xBiDcL": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "SAV 7J/7",
-            "content": "<p>Notre service client est à votre écoute <strong>7J/7</strong>.<br/></p><p>Vous pouvez nous contacter en utilisant l'onglet <strong>\"Contact\"</strong> de notre boutique ou par email à l'adresse<strong> contact@myvaltor.com</strong></p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
-        "rapi_rapi_bundle_pgd894",
         "liquid_dDdgmr",
         "title",
         "liquid_MB39rh",
@@ -270,15 +254,14 @@
         "liquid_mVyCMK",
         "badges",
         "separator",
-        "variant-picker",
-        "quantity-selector",
+        "rapi_rapi_bundle_pgd894",
+        "collapsible_text_3ad3qW",
+        "collapsible_text_xBiDcL",
         "buy-buttons",
         "liquid_y6jUEq",
         "liquid_ciBx9D",
         "liquid_pGBb9r",
-        "liquid_eG6AAn",
-        "collapsible_text_3ad3qW",
-        "collapsible_text_xBiDcL"
+        "liquid_eG6AAn"
       ],
       "settings": {
         "full_width": false,
