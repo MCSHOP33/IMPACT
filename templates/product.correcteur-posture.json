@@ -28,6 +28,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_9Q338C": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background:#fff;border:1.5px solid #4a9aba;border-radius:12px;overflow:hidden;font-family:sans-serif;margin:20px 0;\">\n  <div style=\"background:#07090c;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;\">\n    <div style=\"background:#4a9aba;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:4px 12px;border-radius:4px;text-transform:uppercase;\">Cadeau offert</div>\n    <div style=\"color:#fff;font-size:13px;\">Inclus dans le pack <span style=\"color:#4a9aba;font-weight:700;\">2+1 VALTOR</span> uniquement</div>\n  </div>\n  <div style=\"padding:20px 24px;\">\n    <p style=\"font-size:17px;font-weight:700;color:#07090c;margin:0 0 2px;\">Correcteur de posture</p>\n    <p style=\"font-size:12px;color:#4a9aba;font-weight:600;margin:0 0 16px;\">Valeur 19,99€ — offert avec ton pack</p>\n    <div style=\"display:flex;gap:10px;margin-bottom:11px;\"><div style=\"width:7px;height:7px;min-width:7px;background:#4a9aba;border-radius:50%;margin-top:6px;\"></div><div><strong style=\"font-size:14px;color:#07090c;display:block;\">Dos droit dès le premier port</strong><span style=\"font-size:12px;color:#777;\">Maintien lombaire et dorsal pour une posture corrigée naturellement.</span></div></div>\n    <div style=\"display:flex;gap:10px;margin-bottom:11px;\"><div style=\"width:7px;height:7px;min-width:7px;background:#4a9aba;border-radius:50%;margin-top:6px;\"></div><div><strong style=\"font-size:14px;color:#07090c;display:block;\">Douleurs de dos réduites</strong><span style=\"font-size:12px;color:#777;\">Soulage les tensions cervicales et lombaires dès 20 min de port.</span></div></div>\n    <div style=\"display:flex;gap:10px;margin-bottom:11px;\"><div style=\"width:7px;height:7px;min-width:7px;background:#4a9aba;border-radius:50%;margin-top:6px;\"></div><div><strong style=\"font-size:14px;color:#07090c;display:block;\">Invisible sous les vêtements</strong><span style=\"font-size:12px;color:#777;\">Fin et discret — se porte sous la chemise sans se voir.</span></div></div>\n    <div style=\"display:flex;gap:10px;margin-bottom:11px;\"><div style=\"width:7px;height:7px;min-width:7px;background:#4a9aba;border-radius:50%;margin-top:6px;\"></div><div><strong style=\"font-size:14px;color:#07090c;display:block;\">Silhouette plus droite, look plus assuré</strong><span style=\"font-size:12px;color:#777;\">Se tenir droit change instantanément l'impression que tu donnes.</span></div></div>\n    <div style=\"background:#4a9aba18;border-left:3px solid #4a9aba;border-radius:0 6px 6px 0;padding:10px 14px;margin-top:16px;font-size:13px;color:#07090c;\">🎁 Prends le <strong style=\"color:#4a9aba;\">pack 2+1 VALTOR à 59,90€</strong> — le correcteur est ajouté automatiquement à ta commande.</div>\n  </div>\n</div>"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -59,6 +65,7 @@
         "title",
         "badges",
         "price",
+        "liquid_9Q338C",
         "rating",
         "payment_terms",
         "separator",
