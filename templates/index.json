@@ -33,7 +33,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Logo_de_BFM_TV_1.jpg",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         },
@@ -41,7 +41,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Logo_M6__2020__fond_clair__svg.webp",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         },
@@ -49,7 +49,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Le_Parisien_logo_svg.webp",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         },
