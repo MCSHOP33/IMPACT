@@ -17,7 +17,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_13_juin_2026_19_35_44.webp",
+        "image": "shopify://shop_images/HERO_51fab408-fa80-462e-8aa0-e5eba8d29a3d.webp",
         "mobile_image": "shopify://shop_images/ChatGPT_Image_13_juin_2026_19_35_44.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -184,12 +184,6 @@
           "type": "separator",
           "settings": {}
         },
-        "rapi_rapi_bundle_pgd894": {
-          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "collapsible_text_3ad3qW": {
           "type": "collapsible_text",
           "settings": {
@@ -254,7 +248,6 @@
         "liquid_mVyCMK",
         "badges",
         "separator",
-        "rapi_rapi_bundle_pgd894",
         "collapsible_text_3ad3qW",
         "collapsible_text_xBiDcL",
         "buy-buttons",
