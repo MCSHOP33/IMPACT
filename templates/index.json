@@ -85,6 +85,12 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
+        "liquid_4nrmYf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .lok-trust-hero {\n    background: #ffffff;\n    padding: 12px 20px;\n    font-family: sans-serif;\n  }\n  .lok-trust-hero__inner {\n    max-width: 700px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n  }\n  .lok-trust-hero__badge {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    background: #EEF4FD;\n    border-radius: 30px;\n    padding: 8px 16px;\n    width: fit-content;\n    margin: 0 auto;\n  }\n  .lok-trust-hero__badge span {\n    font-size: 13px;\n    font-weight: 600;\n    color: #1A6FE8;\n  }\n  .lok-trust-hero__social {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    justify-content: center;\n  }\n  .lok-trust-hero__avatars {\n    display: flex;\n  }\n  .lok-trust-hero__avatar {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    margin-left: -8px;\n    overflow: hidden;\n    display: block;\n  }\n  .lok-trust-hero__avatar:first-child {\n    margin-left: 0;\n  }\n  .lok-trust-hero__avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .lok-trust-hero__social-text {\n    font-size: 12px;\n    color: #4A5568;\n    margin: 0;\n  }\n  .lok-trust-hero__social-text strong {\n    color: #0D1B4B;\n    font-weight: 700;\n  }\n  .lok-trust-hero__verified {\n    color: #1A6FE8;\n    font-size: 13px;\n  }\n  @media screen and (max-width: 749px) {\n    .lok-trust-hero {\n      padding: 10px 10px;\n    }\n    .lok-trust-hero__badge span {\n      font-size: 12px;\n    }\n  }\n</style>\n\n<div class=\"lok-trust-hero\">\n  <div class=\"lok-trust-hero__inner\">\n\n    <div class=\"lok-trust-hero__badge\">\n      <span>🛡️ 0€/mois · Sans SIM · Sans abonnement</span>\n    </div>\n\n    <div class=\"lok-trust-hero__social\">\n      <div class=\"lok-trust-hero__avatars\">\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_5.jpg?v=1782984129\" alt=\"Parent 1\">\n        </div>\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_6.jpg?v=1782984130\" alt=\"Parent 2\">\n        </div>\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/shootings-photo-de-profil-reseaux-sociaux-et-professionnel-a-colmar_018.jpg?v=1782984131\" alt=\"Parent 3\">\n        </div>\n      </div>\n      <p class=\"lok-trust-hero__social-text\">\n        <strong>Sophie</strong> <span class=\"lok-trust-hero__verified\">✔</span> et <strong>+500 parents</strong> ont déjà adopté Lokeo\n      </p>\n    </div>\n\n  </div>\n</div>"
+          }
+        },
         "liquid_dDdgmr": {
           "type": "liquid",
           "settings": {
@@ -95,12 +101,6 @@
           "type": "title",
           "settings": {
             "heading_tag": "h2"
-          }
-        },
-        "liquid_4nrmYf": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .lok-trust-hero {\n    background: #ffffff;\n    padding: 12px 20px;\n    font-family: sans-serif;\n  }\n  .lok-trust-hero__inner {\n    max-width: 700px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n  }\n  .lok-trust-hero__badge {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    background: #EEF4FD;\n    border-radius: 30px;\n    padding: 8px 16px;\n    width: fit-content;\n    margin: 0 auto;\n  }\n  .lok-trust-hero__badge span {\n    font-size: 13px;\n    font-weight: 600;\n    color: #1A6FE8;\n  }\n  .lok-trust-hero__social {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    justify-content: center;\n  }\n  .lok-trust-hero__avatars {\n    display: flex;\n  }\n  .lok-trust-hero__avatar {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    margin-left: -8px;\n    overflow: hidden;\n    display: block;\n  }\n  .lok-trust-hero__avatar:first-child {\n    margin-left: 0;\n  }\n  .lok-trust-hero__avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .lok-trust-hero__social-text {\n    font-size: 12px;\n    color: #4A5568;\n    margin: 0;\n  }\n  .lok-trust-hero__social-text strong {\n    color: #0D1B4B;\n    font-weight: 700;\n  }\n  .lok-trust-hero__verified {\n    color: #1A6FE8;\n    font-size: 13px;\n  }\n  @media screen and (max-width: 749px) {\n    .lok-trust-hero {\n      padding: 10px 10px;\n    }\n    .lok-trust-hero__badge span {\n      font-size: 12px;\n    }\n  }\n</style>\n\n<div class=\"lok-trust-hero\">\n  <div class=\"lok-trust-hero__inner\">\n\n    <div class=\"lok-trust-hero__badge\">\n      <span>🛡️ 0€/mois · Sans SIM · Sans abonnement</span>\n    </div>\n\n    <div class=\"lok-trust-hero__social\">\n      <div class=\"lok-trust-hero__avatars\">\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_5.jpg?v=1782984129\" alt=\"Parent 1\">\n        </div>\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_6.jpg?v=1782984130\" alt=\"Parent 2\">\n        </div>\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/shootings-photo-de-profil-reseaux-sociaux-et-professionnel-a-colmar_018.jpg?v=1782984131\" alt=\"Parent 3\">\n        </div>\n      </div>\n      <p class=\"lok-trust-hero__social-text\">\n        <strong>Sophie</strong> <span class=\"lok-trust-hero__verified\">✔</span> et <strong>+500 parents</strong> ont déjà adopté Lokeo\n      </p>\n    </div>\n\n  </div>\n</div>"
           }
         },
         "liquid_MB39rh": {
@@ -186,9 +186,9 @@
         }
       },
       "block_order": [
+        "liquid_4nrmYf",
         "liquid_dDdgmr",
         "title",
-        "liquid_4nrmYf",
         "liquid_MB39rh",
         "liquid_ymDFRF",
         "liquid_mVyCMK",
