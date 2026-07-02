@@ -20,9 +20,9 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Disponible 7j/7 · Réponse sous 24h",
+        "subheading": "Disponible du lundi au vendredi, de 8h à 20h30",
         "title": "Une question ? Notre équipe vous répond",
-        "content": "",
+        "content": "<p>⚡ Réponse garantie sous 24h</p><p></p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
