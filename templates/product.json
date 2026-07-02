@@ -9,76 +9,46 @@
  */
 {
   "sections": {
-    "featured_product_3tXpFq": {
+    "featured_product_p3KXVi": {
       "type": "featured-product",
       "blocks": {
-        "liquid_jK8JRF": {
+        "liquid_x3wBVm": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"vlt-rating-block\">\n  <div class=\"vlt-rating-stars\">\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n  </div>\n  <span class=\"vlt-rating-score\">4,9/5</span>\n  <span class=\"vlt-rating-sep\">·</span>\n  <a class=\"vlt-rating-link\" href=\"#vlt-avis\">+2 847 avis vérifiés ↓</a>\n</div>\n\n<style>\n.vlt-rating-block {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 12px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-rating-stars {\n  display: flex;\n  gap: 2px;\n  align-items: center;\n}\n.vlt-rating-score {\n  font-size: 14px;\n  font-weight: 700;\n  color: #0f1923;\n}\n.vlt-rating-sep {\n  color: #dde6ed;\n  font-size: 14px;\n}\n.vlt-rating-link {\n  font-size: 13px;\n  color: #4a9aba;\n  text-decoration: none;\n  font-weight: 500;\n  border-bottom: 1px solid #c8e4f0;\n  padding-bottom: 1px;\n  transition: color 0.2s;\n}\n.vlt-rating-link:hover {\n  color: #2a7a9a;\n}\n</style>"
+            "liquid": "<style>\n  .lok-trust-hero {\n    background: #ffffff;\n    padding: 12px 20px;\n    font-family: sans-serif;\n  }\n  .lok-trust-hero__inner {\n    max-width: 700px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n  }\n  .lok-trust-hero__badge {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    background: #EEF4FD;\n    border-radius: 30px;\n    padding: 8px 16px;\n    width: fit-content;\n    margin: 0 auto;\n  }\n  .lok-trust-hero__badge span {\n    font-size: 13px;\n    font-weight: 600;\n    color: #1A6FE8;\n  }\n  .lok-trust-hero__social {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    justify-content: center;\n  }\n  .lok-trust-hero__avatars {\n    display: flex;\n  }\n  .lok-trust-hero__avatar {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    margin-left: -8px;\n    overflow: hidden;\n    display: block;\n  }\n  .lok-trust-hero__avatar:first-child {\n    margin-left: 0;\n  }\n  .lok-trust-hero__avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .lok-trust-hero__social-text {\n    font-size: 12px;\n    color: #4A5568;\n    margin: 0;\n  }\n  .lok-trust-hero__social-text strong {\n    color: #0D1B4B;\n    font-weight: 700;\n  }\n  .lok-trust-hero__verified {\n    color: #1A6FE8;\n    font-size: 13px;\n  }\n  @media screen and (max-width: 749px) {\n    .lok-trust-hero {\n      padding: 10px 10px;\n    }\n    .lok-trust-hero__badge span {\n      font-size: 12px;\n    }\n  }\n</style>\n\n<div class=\"lok-trust-hero\">\n  <div class=\"lok-trust-hero__inner\">\n\n    <div class=\"lok-trust-hero__badge\">\n      <span>🛡️ 0€/mois · Sans SIM · Sans abonnement</span>\n    </div>\n\n    <div class=\"lok-trust-hero__social\">\n      <div class=\"lok-trust-hero__avatars\">\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_5.jpg?v=1782984129\" alt=\"Parent 1\">\n        </div>\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_6.jpg?v=1782984130\" alt=\"Parent 2\">\n        </div>\n        <div class=\"lok-trust-hero__avatar\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/shootings-photo-de-profil-reseaux-sociaux-et-professionnel-a-colmar_018.jpg?v=1782984131\" alt=\"Parent 3\">\n        </div>\n      </div>\n      <p class=\"lok-trust-hero__social-text\">\n        <strong>Sophie</strong> <span class=\"lok-trust-hero__verified\">✔</span> et <strong>+5000 parents</strong> ont déjà adopté Lokeo\n      </p>\n    </div>\n\n  </div>\n</div>"
           }
         },
-        "title_z8j73D": {
+        "title_wjW8JH": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
-        "liquid_XDPnB4": {
+        "liquid_CFLUt9": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"vlt-trust\">\n  <div class=\"vlt-trust-avatars\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_11_40.png?v=1781381593\" alt=\"Thomas\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_12_44.png?v=1781381597\" alt=\"Karim\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_13_35.png?v=1781381631\" alt=\"Nicolas\">\n  </div>\n  <p class=\"vlt-trust-text\">\n    Thomas, Karim et <strong>+12 000 hommes</strong> ont arrêté de rentrer le ventre.\n  </p>\n</div>\n\n<style>\n.vlt-trust {\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 14px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-trust-avatars {\n  display: flex;\n  flex-shrink: 0;\n}\n.vlt-trust-avatar {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  object-fit: cover;\n  border: 2px solid #fff;\n  margin-left: -10px;\n  box-shadow: 0 0 0 1px #dde6ed;\n}\n.vlt-trust-avatar:first-child {\n  margin-left: 0;\n}\n.vlt-trust-text {\n  font-size: 13px;\n  color: #6b7280;\n  line-height: 1.5;\n  margin: 0;\n}\n.vlt-trust-text strong {\n  color: #0f1923;\n  font-weight: 700;\n}\n</style>"
+            "liquid": "<div class=\"vlt-rating-block\">\n  <div class=\"vlt-rating-stars\">\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n  </div>\n  <span class=\"vlt-rating-score\">4,9/5</span>\n  <span class=\"vlt-rating-sep\">·</span>\n  <a class=\"vlt-rating-link\" href=\"#vlt-avis\">+2 847 avis vérifiés ↓</a>\n</div>\n<style>\n.vlt-rating-block {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 12px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-rating-stars {\n  display: flex;\n  gap: 2px;\n  align-items: center;\n}\n.vlt-rating-score {\n  font-size: 14px;\n  font-weight: 700;\n  color: #0f1923;\n}\n.vlt-rating-sep {\n  color: #dde6ed;\n  font-size: 14px;\n}\n.vlt-rating-link {\n  font-size: 13px;\n  color: #4a9aba;\n  text-decoration: none;\n  font-weight: 500;\n  border-bottom: 1px solid #c8e4f0;\n  padding-bottom: 1px;\n  transition: color 0.2s;\n}\n.vlt-rating-link:hover {\n  color: #2a7a9a;\n}\n</style>"
           }
         },
-        "image_LEndb6": {
-          "type": "image",
+        "liquid_CkNUqN": {
+          "type": "liquid",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_16_juin_2026_14_19_32.png",
-            "alignment": "start",
-            "max_width": 340
+            "liquid": "<style>\n  .lok-mini-benefits {\n    background: #ffffff;\n    padding: 16px 20px;\n    font-family: sans-serif;\n  }\n  .lok-mini-benefits__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 10px 24px;\n    max-width: 700px;\n    margin: 0 auto;\n    padding: 0 16px;\n  }\n  .lok-mini-benefits__item {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n  .lok-mini-benefits__icon {\n    color: #1A6FE8;\n    font-size: 18px;\n    min-width: 24px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .lok-mini-benefits__label {\n    font-size: 13px;\n    font-weight: 600;\n    color: #0D1B4B;\n    margin: 0;\n    line-height: 1.3;\n  }\n  @media screen and (max-width: 749px) {\n    .lok-mini-benefits {\n      padding: 12px 10px;\n    }\n    .lok-mini-benefits__grid {\n      gap: 8px 16px;\n      padding: 0 10px;\n    }\n    .lok-mini-benefits__label {\n      font-size: 12px;\n    }\n    .lok-mini-benefits__icon {\n      font-size: 16px;\n    }\n  }\n</style>\n\n<div class=\"lok-mini-benefits\">\n  <div class=\"lok-mini-benefits__grid\">\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">📍</div>\n      <p class=\"lok-mini-benefits__label\">Localisation temps réel</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">👟</div>\n      <p class=\"lok-mini-benefits__label\">Invisible dans la chaussure</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">📱</div>\n      <p class=\"lok-mini-benefits__label\">iOS & Android</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">🔋</div>\n      <p class=\"lok-mini-benefits__label\">1 an d'autonomie</p>\n    </div>\n  </div>\n</div>"
           }
         },
-        "liquid_eKtRPb": {
+        "rapi_rapi_bundle_HpH4Wq": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{ section.settings.product }}"
+          }
+        },
+        "liquid_EceATz": {
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"vlt-urgency-block\">\n  <span class=\"vlt-urgency-dot\"></span>\n  <span class=\"vlt-urgency-text\">\n    Stock limité — plus que <strong id=\"vlt-stock-count\">47</strong> unités disponibles à ce prix\n  </span>\n</div>\n\n<style>\n.vlt-urgency-block {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 16px;\n  background: #fff8f8;\n  border: 1px solid #fcd5d5;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-urgency-dot {\n  width: 8px;\n  height: 8px;\n  border-radius: 50%;\n  background: #ef4444;\n  flex-shrink: 0;\n  animation: vlt-pulse 1.5s infinite;\n}\n@keyframes vlt-pulse {\n  0%,100% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.4; transform: scale(0.85); }\n}\n.vlt-urgency-text {\n  font-size: 13px;\n  color: #7f1d1d;\n  line-height: 1.4;\n}\n.vlt-urgency-text strong {\n  font-size: 15px;\n  font-weight: 800;\n  color: #ef4444;\n  transition: all 0.3s ease;\n}\n.vlt-stock-flash {\n  animation: vlt-flash 0.4s ease;\n}\n@keyframes vlt-flash {\n  0% { transform: scale(1.3); color: #dc2626; }\n  100% { transform: scale(1); }\n}\n</style>\n\n<script>\n(function() {\n  const key = 'vlt_stock';\n  const keyTime = 'vlt_stock_time';\n  const el = document.getElementById('vlt-stock-count');\n  if (!el) return;\n\n  // Stock initial entre 43 et 52\n  let stock = parseInt(localStorage.getItem(key));\n  const lastTime = parseInt(localStorage.getItem(keyTime)) || 0;\n\n  if (!stock || stock < 5 || stock > 60) {\n    stock = Math.floor(Math.random() * 10) + 43;\n  }\n\n  // Diminue le stock selon le temps écoulé depuis la dernière visite\n  const now = Date.now();\n  const minutesPassed = Math.floor((now - lastTime) / 60000);\n  if (minutesPassed > 0 && lastTime > 0) {\n    const drop = Math.min(Math.floor(minutesPassed / 8), 3);\n    stock = Math.max(stock - drop, 5);\n  }\n\n  localStorage.setItem(key, stock);\n  localStorage.setItem(keyTime, now);\n  el.textContent = stock;\n\n  // Diminue visuellement toutes les 3 à 7 minutes sur la page\n  function scheduleNext() {\n    const delay = (Math.floor(Math.random() * 4) + 3) * 60 * 1000;\n    setTimeout(function() {\n      if (stock > 5) {\n        stock--;\n        localStorage.setItem(key, stock);\n        el.textContent = stock;\n        el.classList.remove('vlt-stock-flash');\n        void el.offsetWidth;\n        el.classList.add('vlt-stock-flash');\n        scheduleNext();\n      }\n    }, delay);\n  }\n  scheduleNext();\n})();\n</script>"
           }
         },
-        "badges_qtMin6": {
-          "type": "badges",
-          "settings": {}
-        },
-        "separator_rKTmaT": {
-          "type": "separator",
-          "settings": {}
-        },
-        "rapi_rapi_bundle_ycnFQQ": {
-          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
-        "collapsible_text_JLTEyh": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Guide des tailles",
-            "content": "<p>Un guide des tailles est disponible dans les images du produit pour vous aider.</p><p>👉 Si vous êtes proche de la limite de poids, prenez une taille au-dessus pour un ajustement optimal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_8WhCtm": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "SAV 7J/7",
-            "content": "<p>Notre service client est à votre écoute <strong>7J/7</strong>.<br/></p><p>Vous pouvez nous contacter en utilisant l'onglet <strong>\"Contact\"</strong> de notre boutique ou par email à l'adresse<strong> contact@myvaltor.com</strong></p>",
-            "page": ""
-          }
-        },
-        "buy_buttons_pYLnM6": {
+        "buy_buttons_NLT9Yh": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
@@ -89,47 +59,58 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_jWtCy8": {
+        "liquid_AJwN4y": {
           "type": "liquid",
           "settings": {
             "liquid": "{% comment %} Badge de paiement - à placer sous le bouton Achat {% endcomment %}\n<div class=\"payment-badges\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_16_juin_2026_13_25_01.png?v=1781611675\"\n    alt=\"Modes de paiement acceptés\"\n    loading=\"lazy\"\n    width=\"auto\"\n    height=\"auto\"\n  >\n</div>\n\n<style>\n  .payment-badges {\n    margin-top: 12px;\n    text-align: center;\n  }\n\n  .payment-badges img {\n    max-width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n</style>"
           }
         },
-        "liquid_PKyMah": {
+        "collapsible_text_aYfVPE": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Contenu de la boîte",
+            "content": "<p>✦ 2 semelles Lokeo (pied gauche + pied droit)<br/>✦ 1 tracker GPS inclus — noir pour iPhone / blanc pour Android<br/>✦ Guide d'installation envoyé par email — prise en main en moins de 2 minutes</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_YPVC9M": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Comment choisir ma taille ?",
+            "content": "<p>Mesurez la longueur du pied de votre enfant en centimètres, puis choisissez la taille correspondante dans le menu. Les semelles sont découpables — si votre enfant est entre deux tailles, prenez la plus grande et ajustez selon le trait de coupe indiqué.<br/></p>",
+            "page": ""
+          }
+        },
+        "liquid_yrL678": {
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"vlt-ship2\">\n  <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4a9aba\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"22\" height=\"22\">\n    <path d=\"M1 3h15v13H1zM16 8h4l3 3v5h-7V8z\"/>\n    <circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/>\n    <circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>\n  </svg>\n  <span>Expédition sous <strong>48h</strong></span>\n</div>\n\n<style>\n.vlt-ship2 {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 13px;\n  background: #f7fafc;\n  border-top: 2px solid #4a9aba;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  font-size: 14px;\n  color: #6b7280;\n  letter-spacing: 0.3px;\n}\n.vlt-ship2 strong {\n  color: #0f1923;\n  font-weight: 800;\n}\n</style>"
           }
         },
-        "liquid_heUKiP": {
+        "liquid_TJBHdt": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"valtor-trust-videos\">\n  <h3>12 000 hommes l'ont adopté</h3>\n  <div class=\"valtor-video-grid\">\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/9aa603486a4e45e5a7f446417effdfe3.mp4\" muted autoplay loop playsinline></video>\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/955d042a167147d6892cda3df76c3082.mp4\" muted autoplay loop playsinline></video>\n    <video src=\"https://cdn.shopify.com/videos/c/o/v/bd420ec18b354bfd91c810a295ec0687.mp4\" muted autoplay loop playsinline></video>\n  </div>\n</div>\n\n<style>\n.valtor-trust-videos {\n  margin: 18px 0 10px;\n  padding: 16px;\n  background: #07090c;\n  border: 1px solid rgba(74, 154, 186, 0.18);\n  border-radius: 14px;\n  text-align: center;\n}\n.valtor-trust-videos h3 {\n  margin: 0 0 14px;\n  font-size: 16px;\n  font-weight: 700;\n  color: #eef3f8;\n  letter-spacing: 0.3px;\n}\n.valtor-trust-videos h3 span {\n  color: #4a9aba;\n}\n.valtor-video-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 8px;\n}\n.valtor-video-grid video {\n  width: 100%;\n  height: 150px;\n  object-fit: cover;\n  border-radius: 10px;\n  border: 1px solid rgba(74, 154, 186, 0.15);\n  background: #0d1117;\n}\n@media (max-width: 480px) {\n  .valtor-video-grid video {\n    height: 120px;\n  }\n}\n</style>"
-          }
-        },
-        "liquid_WD63zW": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"vlt-bar\">\n  <span>🚚 Livraison gratuite</span>\n  <span class=\"vlt-bar-sep\">·</span>\n  <span>✓ Satisfait ou remboursé</span>\n  <span class=\"vlt-bar-sep\">·</span>\n  <span>🔒 Paiement sécurisé</span>\n</div>\n\n<style>\n.vlt-bar {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  gap: 8px;\n  padding: 12px 16px;\n  background: #4a9aba;\n  border-radius: 10px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  font-size: 11px;\n  font-weight: 600;\n  color: #fff;\n  letter-spacing: 0.3px;\n  text-align: center;\n}\n.vlt-bar-sep {\n  opacity: 0.4;\n}\n</style>"
+            "liquid": "<style>\n  .lok-avis-ticker {\n    background: #ffffff;\n    padding: 6px 0;\n    overflow: hidden;\n    width: 100%;\n    font-family: sans-serif;\n  }\n  .lok-avis-ticker__track {\n    display: flex;\n    flex-direction: column;\n    gap: 0;\n  }\n  .lok-avis-ticker__slide {\n    display: none;\n    align-items: center;\n    gap: 8px;\n    padding: 6px 12px;\n    background: #F5F7FA;\n    border-radius: 8px;\n    animation: fadeSlide 0.4s ease;\n  }\n  .lok-avis-ticker__slide.active {\n    display: flex;\n  }\n  @keyframes fadeSlide {\n    from { opacity: 0; transform: translateY(6px); }\n    to { opacity: 1; transform: translateY(0); }\n  }\n  .lok-avis-ticker__avatar {\n    width: 28px;\n    height: 28px;\n    min-width: 28px;\n    border-radius: 50%;\n    overflow: hidden;\n  }\n  .lok-avis-ticker__avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .lok-avis-ticker__stars {\n    color: #F5A623;\n    font-size: 10px;\n    letter-spacing: 0.5px;\n    white-space: nowrap;\n  }\n  .lok-avis-ticker__text {\n    font-size: 11px;\n    color: #0D1B4B;\n    font-weight: 600;\n    margin: 0;\n    flex: 1;\n    line-height: 1.4;\n  }\n  .lok-avis-ticker__author {\n    font-size: 10px;\n    color: #4A5568;\n    white-space: nowrap;\n    flex-shrink: 0;\n  }\n  .lok-avis-ticker__verified {\n    font-size: 10px;\n    color: #1A6FE8;\n    font-weight: 600;\n    white-space: nowrap;\n    flex-shrink: 0;\n  }\n  .lok-avis-ticker__sep {\n    color: #D0D8E8;\n    font-size: 10px;\n    flex-shrink: 0;\n  }\n</style>\n\n<div class=\"lok-avis-ticker\">\n  <div class=\"lok-avis-ticker__track\" id=\"lokTickerTrack\">\n\n    <div class=\"lok-avis-ticker__slide active\">\n      <div class=\"lok-avis-ticker__avatar\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_9.jpg?v=1782984736\" alt=\"Camille M.\">\n      </div>\n      <div class=\"lok-avis-ticker__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"lok-avis-ticker__text\">\"Avant je payais 15€/mois pour une montre GPS que mon fils enlevait. Lokeo : une fois, invisible, fini.\"</p>\n      <span class=\"lok-avis-ticker__sep\">·</span>\n      <span class=\"lok-avis-ticker__author\">Camille M.</span>\n      <span class=\"lok-avis-ticker__verified\">✔ Vérifié</span>\n    </div>\n\n    <div class=\"lok-avis-ticker__slide\">\n      <div class=\"lok-avis-ticker__avatar\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/mon-profil-de-facebook.jpg?v=1782984742\" alt=\"Marie S.\">\n      </div>\n      <div class=\"lok-avis-ticker__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"lok-avis-ticker__text\">\"J'ai équipé mes 3 enfants. Avec un GPS classique j'aurais payé 30€/mois. Là, zéro abonnement. Énorme.\"</p>\n      <span class=\"lok-avis-ticker__sep\">·</span>\n      <span class=\"lok-avis-ticker__author\">Marie S.</span>\n      <span class=\"lok-avis-ticker__verified\">✔ Vérifié</span>\n    </div>\n\n    <div class=\"lok-avis-ticker__slide\">\n      <div class=\"lok-avis-ticker__avatar\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/images_10.jpg?v=1782984735\" alt=\"Nicolas R.\">\n      </div>\n      <div class=\"lok-avis-ticker__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"lok-avis-ticker__text\">\"Montre GPS : compliquée, chère, retirée dès la récré. Lokeo : dans la chaussure, il ne sait même pas.\"</p>\n      <span class=\"lok-avis-ticker__sep\">·</span>\n      <span class=\"lok-avis-ticker__author\">Nicolas R.</span>\n      <span class=\"lok-avis-ticker__verified\">✔ Vérifié</span>\n    </div>\n\n  </div>\n</div>\n\n<script>\n  (function() {\n    var slides = document.querySelectorAll('.lok-avis-ticker__slide');\n    var current = 0;\n    setInterval(function() {\n      slides[current].classList.remove('active');\n      current = (current + 1) % slides.length;\n      slides[current].classList.add('active');\n    }, 7000);\n  })();\n</script>"
           }
         }
       },
       "block_order": [
-        "liquid_jK8JRF",
-        "title_z8j73D",
-        "liquid_XDPnB4",
-        "image_LEndb6",
-        "liquid_eKtRPb",
-        "badges_qtMin6",
-        "separator_rKTmaT",
-        "rapi_rapi_bundle_ycnFQQ",
-        "collapsible_text_JLTEyh",
-        "collapsible_text_8WhCtm",
-        "buy_buttons_pYLnM6",
-        "liquid_jWtCy8",
-        "liquid_PKyMah",
-        "liquid_heUKiP",
-        "liquid_WD63zW"
+        "liquid_x3wBVm",
+        "title_wjW8JH",
+        "liquid_CFLUt9",
+        "liquid_CkNUqN",
+        "rapi_rapi_bundle_HpH4Wq",
+        "liquid_EceATz",
+        "buy_buttons_NLT9Yh",
+        "liquid_AJwN4y",
+        "collapsible_text_aYfVPE",
+        "collapsible_text_YPVC9M",
+        "liquid_yrL678",
+        "liquid_TJBHdt"
       ],
       "settings": {
         "full_width": false,
@@ -290,7 +271,7 @@
     }
   },
   "order": [
-    "featured_product_3tXpFq",
+    "featured_product_p3KXVi",
     "main",
     "related-products",
     "custom_liquid_jnGYfJ"
