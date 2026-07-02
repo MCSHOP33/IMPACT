@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_qPRXxf": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .marquee-logos-wrapper {\n    width: 100%;\n    overflow: hidden;\n    background: transparent;\n    padding: 0;\n    margin: 0;\n  }\n\n  .marquee-logos-track {\n    display: flex;\n    align-items: center;\n    width: max-content;\n    animation: marquee-scroll 20s linear infinite;\n  }\n\n  .marquee-logos-track img {\n    height: 40px;\n    width: auto;\n    object-fit: contain;\n    margin: 0 40px;\n    flex-shrink: 0;\n  }\n\n  @keyframes marquee-scroll {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .marquee-logos-track img {\n      height: 28px;\n      margin: 0 24px;\n    }\n  }\n</style>\n\n<div class=\"marquee-logos-wrapper\">\n  <div class=\"marquee-logos-track\">\n    <!-- Groupe 1 -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_TF1_2013_svg.webp?v=1782646123\" alt=\"TF1\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Le_Parisien_logo_svg.webp?v=1782646123\" alt=\"Le Parisien\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_M6__2020__fond_clair__svg.webp?v=1782646123\" alt=\"M6\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_de_BFM_TV_1.jpg?v=1782646123\" alt=\"BFM TV\" loading=\"lazy\">\n    <!-- Groupe 2 (duplication obligatoire pour la boucle infinie) -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_TF1_2013_svg.webp?v=1782646123\" alt=\"TF1\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Le_Parisien_logo_svg.webp?v=1782646123\" alt=\"Le Parisien\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_M6__2020__fond_clair__svg.webp?v=1782646123\" alt=\"M6\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_de_BFM_TV_1.jpg?v=1782646123\" alt=\"BFM TV\" loading=\"lazy\">\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_M3aBer": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -39,6 +26,19 @@
         "overlay_opacity": 0
       }
     },
+    "custom_liquid_qPRXxf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .marquee-logos-wrapper {\n    width: 100%;\n    overflow: hidden;\n    background: transparent;\n    padding: 0;\n    margin: 0;\n  }\n\n  .marquee-logos-track {\n    display: flex;\n    align-items: center;\n    width: max-content;\n    animation: marquee-scroll 20s linear infinite;\n  }\n\n  .marquee-logos-track img {\n    height: 40px;\n    width: auto;\n    object-fit: contain;\n    margin: 0 40px;\n    flex-shrink: 0;\n  }\n\n  @keyframes marquee-scroll {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .marquee-logos-track img {\n      height: 28px;\n      margin: 0 24px;\n    }\n  }\n</style>\n\n<div class=\"marquee-logos-wrapper\">\n  <div class=\"marquee-logos-track\">\n    <!-- Groupe 1 -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_TF1_2013_svg.webp?v=1782646123\" alt=\"TF1\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Le_Parisien_logo_svg.webp?v=1782646123\" alt=\"Le Parisien\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_M6__2020__fond_clair__svg.webp?v=1782646123\" alt=\"M6\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_de_BFM_TV_1.jpg?v=1782646123\" alt=\"BFM TV\" loading=\"lazy\">\n    <!-- Groupe 2 (duplication obligatoire pour la boucle infinie) -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_TF1_2013_svg.webp?v=1782646123\" alt=\"TF1\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Le_Parisien_logo_svg.webp?v=1782646123\" alt=\"Le Parisien\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_M6__2020__fond_clair__svg.webp?v=1782646123\" alt=\"M6\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Logo_de_BFM_TV_1.jpg?v=1782646123\" alt=\"BFM TV\" loading=\"lazy\">\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_iq3fiQ": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -47,8 +47,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_13_juin_2026_22_08_03.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_13_juin_2026_22_08_03.png",
+        "image": "shopify://shop_images/BENEFICES_be2d1c0e-603e-46af-a892-376add737fce.webp",
+        "mobile_image": "shopify://shop_images/BENEFICES_be2d1c0e-603e-46af-a892-376add737fce.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
