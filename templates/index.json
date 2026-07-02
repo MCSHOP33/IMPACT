@@ -231,6 +231,75 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "faq_NEB9jp": {
+      "type": "faq",
+      "blocks": {
+        "item_WwNXCx": {
+          "type": "item",
+          "settings": {
+            "title": "Comment fonctionne la semelle Lokeo ?",
+            "content": "<p><br/>La semelle Lokeo contient un compartiment discret dans lequel vous glissez le tracker fourni. Une fois installé, vous localisez votre enfant directement depuis votre iPhone ou Android, sans aucune manipulation supplémentaire.<br/><br/></p>"
+          }
+        },
+        "item_biBypD": {
+          "type": "item",
+          "settings": {
+            "title": "Mon enfant va-t-il sentir ou voir la semelle ?",
+            "content": "<p><br/>Non. La semelle Lokeo est conçue comme une semelle classique — confortable, fine et invisible dans la chaussure. Le tracker est intégré dans le talon, imperceptible au port.<br/><br/></p>"
+          }
+        },
+        "item_b6BWcy": {
+          "type": "item",
+          "settings": {
+            "title": "Faut-il un abonnement pour utiliser Lokeo ?",
+            "content": "<p><br/>Non. Lokeo fonctionne sans abonnement mensuel. Vous payez une seule fois et vous localisez votre enfant à vie, sans frais cachés.<br/><br/></p>"
+          }
+        },
+        "item_qgmVTk": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce compatible avec mon téléphone ?",
+            "content": "<p>Oui. Lokeo est compatible avec tous les iPhones et tous les téléphones Android. Deux versions de tracker sont disponibles — noir pour iPhone, blanc pour Android.</p>"
+          }
+        },
+        "item_zirajF": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps dure la pile du tracker ?",
+            "content": "<p>Jusqu'à 1 an avec une seule pile CR2032, disponible partout pour moins de 5€. Pas de recharge quotidienne.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_WwNXCx",
+        "item_biBypD",
+        "item_b6BWcy",
+        "item_qgmVTk",
+        "item_zirajF"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Questions fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Une question ? Notre équipe est là.🕐 Disponible du lundi au vendredi, de 8h à 20h30",
+        "answer_time": "Réponse garantie sous 24h",
+        "button_text": "Nous contacter",
+        "button_url": "shopify://pages/contact",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -241,6 +310,7 @@
     "custom_liquid_NeUw3Q",
     "featured-product",
     "custom_liquid_MeLjqn",
-    "custom_liquid_tKmaqg"
+    "custom_liquid_tKmaqg",
+    "faq_NEB9jp"
   ]
 }
