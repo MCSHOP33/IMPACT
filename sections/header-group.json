@@ -24,17 +24,25 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "🔥 Offre limitée — 2 acheté = 1 offert | Livraison gratuite",
+            "text": "Livraison offerte",
+            "url": ""
+          }
+        },
+        "message_dp7QPy": {
+          "type": "message",
+          "settings": {
+            "text": "Paiement unique · Zéro abonnement",
             "url": ""
           }
         }
       },
       "block_order": [
         "message_wiKkQy",
-        "message"
+        "message",
+        "message_dp7QPy"
       ],
       "settings": {
-        "enable_sticky": true,
+        "enable_sticky": false,
         "autoplay": true,
         "cycle_speed": 6,
         "text_size": "text-xs",
@@ -42,7 +50,7 @@
         "scrolling_speed": 10,
         "background": "#1B4FD8",
         "background_gradient": "",
-        "text_color": "#f0f0f0"
+        "text_color": "#FFFFFF"
       }
     },
     "header": {
