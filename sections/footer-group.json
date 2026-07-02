@@ -22,7 +22,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#4A9DC4",
+            "icon_color": "#4a9dc4",
             "title": "LIVRAISON GRATUITE",
             "content": ""
           }
@@ -35,7 +35,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#4A9DC4",
+            "icon_color": "#4a9dc4",
             "title": "SATISFAIT OU REMBOURSE",
             "content": ""
           }
@@ -48,7 +48,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#4A9DC4",
+            "icon_color": "#4a9dc4",
             "title": "PAIEMENT SECURISE",
             "content": ""
           }
@@ -87,7 +87,7 @@
           "settings": {
             "title": "Notre engagement",
             "content": "<p>VALTOR accompagne les hommes qui souhaitent une silhouette plus nette et plus confiante au quotidien. Nos débardeurs de compression offrent un maintien discret, confortable et invisible sous les vêtements.</p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
