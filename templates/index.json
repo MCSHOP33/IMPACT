@@ -206,6 +206,28 @@
         "input_text_color": ""
       }
     },
+    "17829906465f0c244f": {
+      "type": "apps",
+      "blocks": {
+        "rapi_rapi_bundle_jcbWLd": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "kidsafe-localisez-votre-enfant-en-temps-reel"
+          }
+        }
+      },
+      "block_order": [
+        "rapi_rapi_bundle_jcbWLd"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_MeLjqn": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -322,6 +344,7 @@
     "custom_liquid_9w3Pk9",
     "custom_liquid_NeUw3Q",
     "featured-product",
+    "17829906465f0c244f",
     "custom_liquid_MeLjqn",
     "custom_liquid_tKmaqg",
     "faq_NEB9jp",
