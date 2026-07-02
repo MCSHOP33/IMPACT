@@ -109,6 +109,12 @@
             "liquid": "<style>\n  .lok-mini-benefits {\n    background: #ffffff;\n    padding: 16px 20px;\n    font-family: sans-serif;\n  }\n  .lok-mini-benefits__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 10px 24px;\n    max-width: 700px;\n    margin: 0 auto;\n    padding: 0 16px;\n  }\n  .lok-mini-benefits__item {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n  .lok-mini-benefits__icon {\n    color: #1A6FE8;\n    font-size: 18px;\n    min-width: 24px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .lok-mini-benefits__label {\n    font-size: 13px;\n    font-weight: 600;\n    color: #0D1B4B;\n    margin: 0;\n    line-height: 1.3;\n  }\n  @media screen and (max-width: 749px) {\n    .lok-mini-benefits {\n      padding: 12px 10px;\n    }\n    .lok-mini-benefits__grid {\n      gap: 8px 16px;\n      padding: 0 10px;\n    }\n    .lok-mini-benefits__label {\n      font-size: 12px;\n    }\n    .lok-mini-benefits__icon {\n      font-size: 16px;\n    }\n  }\n</style>\n\n<div class=\"lok-mini-benefits\">\n  <div class=\"lok-mini-benefits__grid\">\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">📍</div>\n      <p class=\"lok-mini-benefits__label\">Localisation temps réel</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">👟</div>\n      <p class=\"lok-mini-benefits__label\">Invisible dans la chaussure</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">📱</div>\n      <p class=\"lok-mini-benefits__label\">iOS & Android</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">🔋</div>\n      <p class=\"lok-mini-benefits__label\">1 an d'autonomie</p>\n    </div>\n  </div>\n</div>"
           }
         },
+        "liquid_4jfBHc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align:center; margin:12px 0;\">\n  <img\n    src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_2_juil._2026_20_50_58_1.png?v=1783018279\"\n    alt=\"Offre Famille - Durée limitée\"\n    style=\"width:220px; max-width:100%; height:auto;\">\n</div>"
+          }
+        },
         "rapi_rapi_bundle_3HLtUg": {
           "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
@@ -119,12 +125,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"vlt-urgency-block\">\n  <span class=\"vlt-urgency-dot\"></span>\n  <span class=\"vlt-urgency-text\">\n    Stock limité — plus que <strong id=\"vlt-stock-count\">47</strong> unités disponibles à ce prix\n  </span>\n</div>\n\n<style>\n.vlt-urgency-block {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 16px;\n  background: #fff8f8;\n  border: 1px solid #fcd5d5;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-urgency-dot {\n  width: 8px;\n  height: 8px;\n  border-radius: 50%;\n  background: #ef4444;\n  flex-shrink: 0;\n  animation: vlt-pulse 1.5s infinite;\n}\n@keyframes vlt-pulse {\n  0%,100% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.4; transform: scale(0.85); }\n}\n.vlt-urgency-text {\n  font-size: 13px;\n  color: #7f1d1d;\n  line-height: 1.4;\n}\n.vlt-urgency-text strong {\n  font-size: 15px;\n  font-weight: 800;\n  color: #ef4444;\n  transition: all 0.3s ease;\n}\n.vlt-stock-flash {\n  animation: vlt-flash 0.4s ease;\n}\n@keyframes vlt-flash {\n  0% { transform: scale(1.3); color: #dc2626; }\n  100% { transform: scale(1); }\n}\n</style>\n\n<script>\n(function() {\n  const key = 'vlt_stock';\n  const keyTime = 'vlt_stock_time';\n  const el = document.getElementById('vlt-stock-count');\n  if (!el) return;\n\n  // Stock initial entre 43 et 52\n  let stock = parseInt(localStorage.getItem(key));\n  const lastTime = parseInt(localStorage.getItem(keyTime)) || 0;\n\n  if (!stock || stock < 5 || stock > 60) {\n    stock = Math.floor(Math.random() * 10) + 43;\n  }\n\n  // Diminue le stock selon le temps écoulé depuis la dernière visite\n  const now = Date.now();\n  const minutesPassed = Math.floor((now - lastTime) / 60000);\n  if (minutesPassed > 0 && lastTime > 0) {\n    const drop = Math.min(Math.floor(minutesPassed / 8), 3);\n    stock = Math.max(stock - drop, 5);\n  }\n\n  localStorage.setItem(key, stock);\n  localStorage.setItem(keyTime, now);\n  el.textContent = stock;\n\n  // Diminue visuellement toutes les 3 à 7 minutes sur la page\n  function scheduleNext() {\n    const delay = (Math.floor(Math.random() * 4) + 3) * 60 * 1000;\n    setTimeout(function() {\n      if (stock > 5) {\n        stock--;\n        localStorage.setItem(key, stock);\n        el.textContent = stock;\n        el.classList.remove('vlt-stock-flash');\n        void el.offsetWidth;\n        el.classList.add('vlt-stock-flash');\n        scheduleNext();\n      }\n    }, delay);\n  }\n  scheduleNext();\n})();\n</script>"
-          }
-        },
-        "liquid_4jfBHc": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"text-align:center; margin:12px 0;\">\n  <img\n    src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_2_juil._2026_20_50_58_1.png?v=1783018279\"\n    alt=\"Offre Famille - Durée limitée\"\n    style=\"width:220px; max-width:100%; height:auto;\">\n</div>"
           }
         },
         "buy-buttons": {
@@ -182,9 +182,9 @@
         "title",
         "liquid_dDdgmr",
         "liquid_ymDFRF",
+        "liquid_4jfBHc",
         "rapi_rapi_bundle_3HLtUg",
         "liquid_mVyCMK",
-        "liquid_4jfBHc",
         "buy-buttons",
         "liquid_y6jUEq",
         "collapsible_text_3ad3qW",
