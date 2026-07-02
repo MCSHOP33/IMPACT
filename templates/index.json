@@ -56,32 +56,6 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_Q8NYXQ": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .aa-section { font-family: sans-serif; padding: 0; max-width: 900px; margin: 0 auto; }\n  .aa-label { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #4A9DC4; font-weight: 500; text-align: center; margin-bottom: 0.5rem; }\n  .aa-title { font-size: 28px; font-weight: 500; text-align: center; color: #1A1A1A; margin: 0 0 0.5rem; line-height: 1.3; }\n  .aa-subtitle { font-size: 15px; color: #666; text-align: center; margin: 0 0 1rem; }\n  .aa-video-wrap video { width: 100%; display: block; border-radius: 12px; }\n  .aa-quote { text-align: center; font-size: 17px; font-style: italic; color: #666; margin: 1rem 0 0; line-height: 1.6; }\n  .aa-quote strong { color: #4A9DC4; font-style: normal; }\n</style>\n\n<div class=\"aa-section\">\n  <p class=\"aa-label\">Transformation</p>\n  <h2 class=\"aa-title\">Le ventre qui déborde, c'était avant.</h2>\n  <p class=\"aa-subtitle\">Reprenez confiance. Dès maintenant.</p>\n  <div class=\"aa-video-wrap\">\n    <video autoplay muted loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/538df82c437a4befb084dae93aa3f42a.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n  <p class=\"aa-quote\">\"En 10 secondes, ma silhouette a changé.<br><strong>Personne ne sait comment. Tout le monde le voit.\"</strong></p>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_E6YejB": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .avis-section { padding: 3rem 1rem; max-width: 1100px; margin: 0 auto; font-family: sans-serif; }\n  .avis-label { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #4A9DC4; font-weight: 500; text-align: center; margin-bottom: 0.5rem; }\n  .avis-title { font-size: 26px; font-weight: 500; text-align: center; color: #1A1A1A; margin: 0 0 1rem; }\n  .avis-trustpilot { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 2rem; }\n  .avis-tp-text { font-size: 14px; font-weight: 600; color: #1A1A1A; }\n  .avis-tp-stars { color: #00B67A; font-size: 16px; letter-spacing: 2px; }\n  .avis-tp-score { font-size: 13px; color: #666; }\n  .avis-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }\n  .avis-card { background: #ffffff; border: 0.5px solid #e0e0e0; border-radius: 12px; overflow: hidden; }\n  .avis-img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }\n  .avis-body { padding: 14px; }\n  .avis-stars { color: #4A9DC4; font-size: 13px; letter-spacing: 2px; margin-bottom: 6px; }\n  .avis-accroche { font-size: 13px; font-weight: 500; color: #1A1A1A; margin: 0 0 6px; line-height: 1.4; }\n  .avis-texte { font-size: 12px; color: #666; margin: 0 0 10px; line-height: 1.5; }\n  .avis-footer { display: flex; align-items: center; justify-content: space-between; }\n  .avis-prenom { font-size: 12px; font-weight: 500; color: #1A1A1A; }\n  .avis-verifie { font-size: 10px; color: #4A9DC4; letter-spacing: 1px; text-transform: uppercase; }\n  @media (max-width: 600px) {\n    .avis-grid { grid-template-columns: repeat(4, 80vw); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 1rem; }\n    .avis-card { scroll-snap-align: start; }\n  }\n  .avis-grid::-webkit-scrollbar { height: 4px; }\n  .avis-grid::-webkit-scrollbar-track { background: #f0f0f0; border-radius: 999px; }\n  .avis-grid::-webkit-scrollbar-thumb { background: #4A9DC4; border-radius: 999px; }\n</style>\n\n<div class=\"avis-section\">\n  <p class=\"avis-label\">Ils l'ont essayé</p>\n  <h2 class=\"avis-title\">12 000 hommes ont repris confiance.</h2>\n\n  <div class=\"avis-trustpilot\">\n    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"#00B67A\"><path d=\"M12 2l2.9 8.9H24l-7.5 5.5 2.9 8.9L12 20l-7.4 5.3 2.9-8.9L0 10.9h9.1z\"/></svg>\n    <span class=\"avis-tp-text\">Trustpilot</span>\n    <span class=\"avis-tp-stars\">★★★★★</span>\n    <span class=\"avis-tp-score\">4.9/5</span>\n  </div>\n\n  <div class=\"avis-grid\">\n\n    <div class=\"avis-card\">\n      <img class=\"avis-img\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Avis_1.webp?v=1781087115\" alt=\"Avis Thomas\" />\n      <div class=\"avis-body\">\n        <div class=\"avis-stars\">★★★★★</div>\n        <p class=\"avis-accroche\">\"Ma femme m'a demandé si j'avais maigri.\"</p>\n        <p class=\"avis-texte\">Je le porte chaque jour sous ma chemise. Personne ne sait. Tout le monde voit la différence.</p>\n        <div class=\"avis-footer\">\n          <span class=\"avis-prenom\">Thomas, 47 ans</span>\n          <span class=\"avis-verifie\">✓ Vérifié</span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"avis-card\">\n      <img class=\"avis-img\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Avis_4.webp?v=1781087114\" alt=\"Avis Marc\" />\n      <div class=\"avis-body\">\n        <div class=\"avis-stars\">★★★★★</div>\n        <p class=\"avis-accroche\">\"Commandé vendredi. Porté lundi. Résultat immédiat.\"</p>\n        <p class=\"avis-texte\">Rien à voir avec ce que j'avais testé avant. VALTOR c'est une autre catégorie.</p>\n        <div class=\"avis-footer\">\n          <span class=\"avis-prenom\">Marc, 52 ans</span>\n          <span class=\"avis-verifie\">✓ Vérifié</span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"avis-card\">\n      <img class=\"avis-img\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Avis_7.webp?v=1781087114\" alt=\"Avis Karim\" />\n      <div class=\"avis-body\">\n        <div class=\"avis-stars\">★★★★★</div>\n        <p class=\"avis-accroche\">\"Je rentrais le ventre sur chaque photo. Plus jamais.\"</p>\n        <p class=\"avis-texte\">Invisible sous le costume. La posture change tout. Je me sens moi-même à nouveau.</p>\n        <div class=\"avis-footer\">\n          <span class=\"avis-prenom\">Karim, 44 ans</span>\n          <span class=\"avis-verifie\">✓ Vérifié</span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"avis-card\">\n      <img class=\"avis-img\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/Avis_2.webp?v=1781087115\" alt=\"Avis Pierre\" />\n      <div class=\"avis-body\">\n        <div class=\"avis-stars\">★★★★★</div>\n        <p class=\"avis-accroche\">\"En 10 secondes ma silhouette a changé.\"</p>\n        <p class=\"avis-texte\">Tissu incroyable. Confort toute la journée. Je ne sors plus sans lui.</p>\n        <div class=\"avis-footer\">\n          <span class=\"avis-prenom\">Pierre, 49 ans</span>\n          <span class=\"avis-verifie\">✓ Vérifié</span>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -101,14 +75,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"vlt-trust\">\n  <div class=\"vlt-trust-avatars\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_11_40.png?v=1781381593\" alt=\"Thomas\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_12_44.png?v=1781381597\" alt=\"Karim\">\n    <img class=\"vlt-trust-avatar\" src=\"https://cdn.shopify.com/s/files/1/0988/3995/3735/files/ChatGPT_Image_13_juin_2026_22_13_35.png?v=1781381631\" alt=\"Nicolas\">\n  </div>\n  <p class=\"vlt-trust-text\">\n    Thomas, Karim et <strong>+12 000 hommes</strong> ont arrêté de rentrer le ventre.\n  </p>\n</div>\n\n<style>\n.vlt-trust {\n  display: flex;\n  align-items: center;\n  gap: 14px;\n  padding: 14px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-trust-avatars {\n  display: flex;\n  flex-shrink: 0;\n}\n.vlt-trust-avatar {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  object-fit: cover;\n  border: 2px solid #fff;\n  margin-left: -10px;\n  box-shadow: 0 0 0 1px #dde6ed;\n}\n.vlt-trust-avatar:first-child {\n  margin-left: 0;\n}\n.vlt-trust-text {\n  font-size: 13px;\n  color: #6b7280;\n  line-height: 1.5;\n  margin: 0;\n}\n.vlt-trust-text strong {\n  color: #0f1923;\n  font-weight: 700;\n}\n</style>"
-          }
-        },
-        "image_FeyRpQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_16_juin_2026_14_19_32.png",
-            "alignment": "start",
-            "max_width": 340
           }
         },
         "liquid_mVyCMK": {
@@ -185,7 +151,6 @@
         "liquid_dDdgmr",
         "title",
         "liquid_MB39rh",
-        "image_FeyRpQ",
         "liquid_mVyCMK",
         "badges",
         "separator",
@@ -356,8 +321,6 @@
     "image_with_text_overlay_M3aBer",
     "custom_liquid_qPRXxf",
     "image_with_text_overlay_iq3fiQ",
-    "custom_liquid_Q8NYXQ",
-    "custom_liquid_E6YejB",
     "featured-product",
     "custom_liquid_9bh4MH",
     "custom_liquid_EFwBWd",
