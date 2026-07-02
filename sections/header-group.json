@@ -17,7 +17,7 @@
         "message_wiKkQy": {
           "type": "message",
           "settings": {
-            "text": "Top 1 des débardeurs gainant en France",
+            "text": "Plus de 5000 parents dorment tranquilles grâce à Lokeo",
             "url": ""
           }
         },
@@ -34,13 +34,13 @@
         "message"
       ],
       "settings": {
-        "enable_sticky": false,
-        "autoplay": false,
+        "enable_sticky": true,
+        "autoplay": true,
         "cycle_speed": 6,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#4a9dc4",
+        "background": "#1B4FD8",
         "background_gradient": "",
         "text_color": "#f0f0f0"
       }
