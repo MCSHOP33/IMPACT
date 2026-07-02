@@ -103,16 +103,16 @@
             "liquid": "<div class=\"vlt-rating-block\">\n  <div class=\"vlt-rating-stars\">\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n    <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#c4a96a\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg>\n  </div>\n  <span class=\"vlt-rating-score\">4,9/5</span>\n  <span class=\"vlt-rating-sep\">·</span>\n  <a class=\"vlt-rating-link\" href=\"#vlt-avis\">+2 847 avis vérifiés ↓</a>\n</div>\n\n<style>\n.vlt-rating-block {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 12px 18px;\n  background: #fff;\n  border: 1px solid #dde6ed;\n  border-radius: 12px;\n  margin: 10px 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n}\n.vlt-rating-stars {\n  display: flex;\n  gap: 2px;\n  align-items: center;\n}\n.vlt-rating-score {\n  font-size: 14px;\n  font-weight: 700;\n  color: #0f1923;\n}\n.vlt-rating-sep {\n  color: #dde6ed;\n  font-size: 14px;\n}\n.vlt-rating-link {\n  font-size: 13px;\n  color: #4a9aba;\n  text-decoration: none;\n  font-weight: 500;\n  border-bottom: 1px solid #c8e4f0;\n  padding-bottom: 1px;\n  transition: color 0.2s;\n}\n.vlt-rating-link:hover {\n  color: #2a7a9a;\n}\n</style>"
           }
         },
-        "rapi_rapi_bundle_3HLtUg": {
-          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "settings": {
-            "product": "{{ section.settings.product }}"
-          }
-        },
         "liquid_ymDFRF": {
           "type": "liquid",
           "settings": {
             "liquid": "<style>\n  .lok-mini-benefits {\n    background: #ffffff;\n    padding: 16px 20px;\n    font-family: sans-serif;\n  }\n  .lok-mini-benefits__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 10px 24px;\n    max-width: 700px;\n    margin: 0 auto;\n    padding: 0 16px;\n  }\n  .lok-mini-benefits__item {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n  .lok-mini-benefits__icon {\n    color: #1A6FE8;\n    font-size: 18px;\n    min-width: 24px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .lok-mini-benefits__label {\n    font-size: 13px;\n    font-weight: 600;\n    color: #0D1B4B;\n    margin: 0;\n    line-height: 1.3;\n  }\n  @media screen and (max-width: 749px) {\n    .lok-mini-benefits {\n      padding: 12px 10px;\n    }\n    .lok-mini-benefits__grid {\n      gap: 8px 16px;\n      padding: 0 10px;\n    }\n    .lok-mini-benefits__label {\n      font-size: 12px;\n    }\n    .lok-mini-benefits__icon {\n      font-size: 16px;\n    }\n  }\n</style>\n\n<div class=\"lok-mini-benefits\">\n  <div class=\"lok-mini-benefits__grid\">\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">📍</div>\n      <p class=\"lok-mini-benefits__label\">Localisation temps réel</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">👟</div>\n      <p class=\"lok-mini-benefits__label\">Invisible dans la chaussure</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">📱</div>\n      <p class=\"lok-mini-benefits__label\">iOS & Android</p>\n    </div>\n    <div class=\"lok-mini-benefits__item\">\n      <div class=\"lok-mini-benefits__icon\">🔋</div>\n      <p class=\"lok-mini-benefits__label\">1 an d'autonomie</p>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "rapi_rapi_bundle_3HLtUg": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{ section.settings.product }}"
           }
         },
         "liquid_mVyCMK": {
@@ -183,8 +183,8 @@
         "liquid_4nrmYf",
         "title",
         "liquid_dDdgmr",
-        "rapi_rapi_bundle_3HLtUg",
         "liquid_ymDFRF",
+        "rapi_rapi_bundle_3HLtUg",
         "liquid_mVyCMK",
         "badges",
         "separator",
